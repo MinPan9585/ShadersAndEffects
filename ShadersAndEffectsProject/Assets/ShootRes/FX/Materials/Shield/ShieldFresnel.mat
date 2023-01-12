@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6633034640034652211
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 6
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShieldBlueBlink
+  m_Name: ShieldFresnel
   m_Shader: {fileID: -6465566751694194690, guid: 9d7f5014df31aec4991aead0257342bf,
     type: 3}
   m_Parent: {fileID: 0}
@@ -54,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_d8c575e45398448a81c833eafa7077ea:
-        m_Texture: {fileID: 2800000, guid: 66567f5021483314eb887f1dcc1b1040, type: 3}
+        m_Texture: {fileID: 2800000, guid: 14d7865f42ccc644b8ac52af2cb42d8f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_edcf707c3f24417381eee416b037639d:
@@ -75,7 +62,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_091f2ee940474412bc7264307e56a370: 9
+    - Vector1_091f2ee940474412bc7264307e56a370: 1
     - Vector1_0fbc68ad6bfb445392df4d6d9df78c9c: 0
     - Vector1_1126a059cb1f47f88c628d09e7aec980: 0.82
     - Vector1_13fb39a01b2c45aab3b5b481fa0ebf09: 0
@@ -87,8 +74,8 @@ Material:
     - Vector1_9053c4bd983d407ca163cffa98860ef4: 3
     - Vector1_a003aef32ac548c9b18bf088e485bb40: 1
     - Vector1_ad35f075c9ce4cb8a1c8bbddbc715c9a: 0
-    - Vector1_adb6dc29327f4ea681dd2b10678c11d2: 4
-    - Vector1_af16486bcfcf475a9c1af01fcc7adf0b: 9
+    - Vector1_adb6dc29327f4ea681dd2b10678c11d2: 6
+    - Vector1_af16486bcfcf475a9c1af01fcc7adf0b: 1
     - Vector1_b5162d20e4734697ac9ccf1d2f423e39: 0
     - Vector1_d51808200be04e5e85927187660a2f15: 1.83
     - Vector1_dd3768cd34114406afc3f0fac588b5f8: 0.99
@@ -97,7 +84,20 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - Color_3ec02c49e9524138a99e627f808905cb: {r: 0, g: 0, b: 0, a: 1}
-    - Color_6086f343d9ca4329b22628166ba4f274: {r: 0.038624145, g: 1.1973485, b: 1.8443029,
+    - Color_3ec02c49e9524138a99e627f808905cb: {r: 0, g: 0.7333169, b: 1, a: 1}
+    - Color_6086f343d9ca4329b22628166ba4f274: {r: 0.019312073, g: 0.59867424, b: 0.92215145,
         a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &9090339009841289877
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

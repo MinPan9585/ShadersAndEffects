@@ -49,6 +49,7 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 1
     - _Cull: 2
+    - _Displacement: 0.5
     - _DstBlend: 10
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -64,8 +65,8 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _BaseColor: {r: 0.04568634, g: 0.5643367, b: 0.7264151, a: 0.34509805}
-    - _RippleColor: {r: 0.6540879, g: 1.845996, b: 2, a: 1}
+    - _BaseColor: {r: 0.13836467, g: 0.76099485, b: 1, a: 0.7764706}
+    - _RippleColor: {r: 0.7909141, g: 5.549966, b: 6.1344104, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &3580491632489581525
 MonoBehaviour:

@@ -70,20 +70,24 @@ Material:
     - _BlendModePreserveSpecular: 1
     - _CastShadows: 0
     - _Cull: 2
-    - _Depth: -0.59
+    - _Depth: -0.08
+    - _Displacement: 0.47
     - _DstBlend: 10
+    - _MainNormalSpeed: 20
+    - _NormalStrength: 1.26
     - _QueueControl: 0
     - _QueueOffset: 23
     - _ReceiveShadows: 1
-    - _Smoothness: 0
+    - _SecondNormalSpeed: -5
+    - _Smoothness: 0.97
     - _SrcBlend: 1
-    - _Strength: 0.34
+    - _Strength: 0.31
     - _Surface: 1
     - _WorkflowMode: 1
     - _ZTest: 4
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _DeepWaterColor: {r: 0.014239899, g: 0.29548118, b: 0.5660378, a: 0.54509807}
+    - _DeepWaterColor: {r: 0.014239899, g: 0.29548115, b: 0.5660378, a: 0.7294118}
     - _ShallowWaterColor: {r: 0.3381986, g: 0.6790122, b: 0.7075472, a: 0.30588236}
   m_BuildTextureStacks: []

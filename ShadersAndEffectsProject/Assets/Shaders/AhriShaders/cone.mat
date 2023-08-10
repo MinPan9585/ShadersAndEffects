@@ -44,6 +44,6 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _MainColor: {r: 3.277433, g: 6.9389353, b: 30.209375, a: 1}
     - _MainTexProperty: {r: 5.17, g: 1, b: 0, a: 0}
-    - _MaskTexProperty: {r: 0.82, g: 0.79, b: 0.12, a: 0.09}
+    - _MaskTexProperty: {r: 1, g: 1, b: 0.12, a: 0.09}
     - _NoiseTexProperty: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

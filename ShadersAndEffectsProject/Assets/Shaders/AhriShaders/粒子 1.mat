@@ -42,7 +42,7 @@ Material:
     - _Opacity: 0.31
     m_Colors:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MainColor: {r: 13.037703, g: 13.037703, b: 13.037703, a: 0.75686276}
+    - _MainColor: {r: 0, g: 13.211624, b: 30.490557, a: 0.75686276}
     - _MainTexProperty: {r: 1, g: 1, b: 0, a: 0}
     - _MaskTexProperty: {r: 1, g: 1, b: 0, a: 0}
     - _NoiseTexProperty: {r: 1, g: 1, b: 0, a: 0}

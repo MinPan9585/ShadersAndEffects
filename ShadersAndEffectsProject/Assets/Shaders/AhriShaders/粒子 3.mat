@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BulletNoFresnel
-  m_Shader: {fileID: 4800000, guid: 696b782ba136bba41985dddc18d5fbd1, type: 3}
+  m_Name: "\u7C92\u5B50 3"
+  m_Shader: {fileID: 4800000, guid: c6b9950b9d6ceda448eec72e8d4e025e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -16,22 +16,34 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2900
+  m_CustomRenderQueue: 2850
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: 2db83d4dac143bf4883b11682730870f, type: 3}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 0492e540df385654bbd86136d90c6b0c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _AlphaCutoff: 0.5
+    - _NoiseTexIntensity: 0
+    - _Opacity: 0.31
     m_Colors:
-    - _Color0: {r: 0, g: 0.20383556, b: 0.9245283, a: 0.6156863}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MainTexProperty: {r: 1, g: 1, b: 0.1, a: -0.2}
+    - _MainColor: {r: 0, g: 1.2572666, b: 1.1450378, a: 0.67058825}
+    - _MainTexProperty: {r: 1, g: 1, b: 0, a: 0}
+    - _MaskTexProperty: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseTexProperty: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []

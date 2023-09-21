@@ -143,7 +143,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MainColor: {r: 8.094811, g: 11.172147, b: 13.914326, a: 0.7764706}
+    - _MainColor: {r: 129.51698, g: 178.75435, b: 222.62921, a: 0.7764706}
     - _MainTexProperty: {r: 1, g: 1, b: 0, a: 0}
     - _MaskTexProperty: {r: 1, g: 1, b: 0, a: 0}
     - _NoiseTexProperty: {r: 1, g: 1, b: 0, a: 0}
